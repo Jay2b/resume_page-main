@@ -27,21 +27,24 @@ html {
         margin-left: -1.5em;
     }
 
-    .menu {
-        margin-right: 2em;
-    }
-
-    .nav-item {
-        width: 25%;
-    }
 }
 
 header {
     background-color: #fff;
+
 }
 
 .logo-container {
     align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    width: 25%;
 }
 
 .nav-link,
@@ -58,19 +61,9 @@ header {
     color: #f59942;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .nav {
         display: none !important;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    header {
-        width: 100%;
-    }
-
-    .menu {
-        width: 50%;
     }
 
 }
@@ -100,13 +93,6 @@ section {
     border: 1px solid #eee;
     background: #fff;
     box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
-}
-
-@media only screen and (max-width: 600px) {
-    .home-socials {
-        display: none;
-
-    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -472,7 +458,7 @@ section {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .header__links {
         display: none;
     }
@@ -541,7 +527,7 @@ section {
     float: right;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .header__main-ham-menu-cont {
         display: block;
     }
@@ -574,7 +560,7 @@ section {
     opacity: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .header__sm-menu--active {
         visibility: visible;
         opacity: 1;
